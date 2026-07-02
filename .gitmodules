@@ -1,0 +1,3 @@
+[submodule "datasets/LakeBench"]
+	path = datasets/LakeBench
+	url = https://github.com/BIT-DataLab/LakeBench.git
