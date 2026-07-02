@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Large/generated experiment artifacts
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.faiss
+*.index
+
+# Sybaek local failure-analysis artifacts
+sybaek/failure_analysis/artifacts/*
+!sybaek/failure_analysis/artifacts/.gitkeep
+sybaek/failure_analysis/cache/*
+!sybaek/failure_analysis/cache/.gitkeep
+sybaek/failure_analysis/logs/*
+!sybaek/failure_analysis/logs/.gitkeep
+
+# Reproducible large failure-analysis outputs
+sybaek/failure_analysis/results/column_profiles.csv
+sybaek/failure_analysis/results/pair_overlap_metrics.csv
+sybaek/failure_analysis/results/rank_comparison.csv
+sybaek/failure_analysis/results/failure_table.csv
+sybaek/failure_analysis/results/webtable_join_prepare_skipped.csv

@@ -1,0 +1,4 @@
+column_id,table_path,column_name,column_index
+q1_city,datasets/LakeBench/example/query.csv,city,
+t1_city,datasets/LakeBench/example/table.csv,city,
+

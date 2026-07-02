@@ -1,0 +1,6 @@
+metric,value
+tables_extracted,4280
+ground_truth_rows,54823
+ground_truth_pairs_kept,54219
+ground_truth_pairs_skipped,604
+manifest_columns,15518
