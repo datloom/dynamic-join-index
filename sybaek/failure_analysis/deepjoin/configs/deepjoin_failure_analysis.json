@@ -1,0 +1,30 @@
+{
+  "repo_root": ".",
+  "inputs": {
+    "column_manifest": "sybaek/failure_analysis/deepjoin/artifacts/column_manifest.csv",
+    "ground_truth_pairs": "sybaek/failure_analysis/deepjoin/artifacts/ground_truth_pairs.csv",
+    "embeddings_npz": "sybaek/failure_analysis/deepjoin/artifacts/deepjoin_column_embeddings.npz",
+    "ann_results": "sybaek/failure_analysis/deepjoin/artifacts/deepjoin_ann_results.csv"
+  },
+  "outputs": {
+    "column_profiles": "sybaek/failure_analysis/deepjoin/results/column_profiles.csv",
+    "pair_overlap_metrics": "sybaek/failure_analysis/deepjoin/results/pair_overlap_metrics.csv",
+    "rank_comparison": "sybaek/failure_analysis/deepjoin/results/rank_comparison.csv",
+    "failure_table": "sybaek/failure_analysis/deepjoin/results/failure_table.csv",
+    "failure_group_summary": "sybaek/failure_analysis/deepjoin/results/failure_group_summary.csv",
+    "failure_samples_dir": "sybaek/failure_analysis/deepjoin/results/samples",
+    "plots_dir": "sybaek/failure_analysis/deepjoin/results/plots"
+  },
+  "options": {
+    "max_rows_per_table": 1000,
+    "encoding": null,
+    "success_rank_threshold": 10,
+    "failure_rank_threshold": 100,
+    "hard_failure_rank_threshold": 1000,
+    "high_overlap_threshold": 0.8,
+    "high_jaccard_threshold": 0.5,
+    "low_overlap_threshold": 0.2,
+    "embedding_batch_size": 64,
+    "rank_batch_size": 256
+  }
+}

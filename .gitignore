@@ -15,17 +15,24 @@ __pycache__/
 *.faiss
 *.index
 
-# Sybaek local failure-analysis artifacts
-sybaek/failure_analysis/artifacts/*
-!sybaek/failure_analysis/artifacts/.gitkeep
-sybaek/failure_analysis/cache/*
-!sybaek/failure_analysis/cache/.gitkeep
-sybaek/failure_analysis/logs/*
-!sybaek/failure_analysis/logs/.gitkeep
+# Local benchmark datasets
+sybaek/datasets/lakebench/webtable_join/*
+!sybaek/datasets/lakebench/webtable_join/README.md
 
-# Reproducible large failure-analysis outputs
-sybaek/failure_analysis/results/column_profiles.csv
-sybaek/failure_analysis/results/pair_overlap_metrics.csv
-sybaek/failure_analysis/results/rank_comparison.csv
-sybaek/failure_analysis/results/failure_table.csv
-sybaek/failure_analysis/results/webtable_join_prepare_skipped.csv
+# Sybaek local DeepJoin failure-analysis artifacts
+sybaek/failure_analysis/deepjoin/artifacts/*
+!sybaek/failure_analysis/deepjoin/artifacts/.gitkeep
+sybaek/failure_analysis/deepjoin/cache/*
+!sybaek/failure_analysis/deepjoin/cache/.gitkeep
+sybaek/failure_analysis/deepjoin/logs/*
+!sybaek/failure_analysis/deepjoin/logs/.gitkeep
+
+# Reproducible DeepJoin failure-analysis outputs
+sybaek/failure_analysis/deepjoin/results/*
+!sybaek/failure_analysis/deepjoin/results/.gitkeep
+!sybaek/failure_analysis/deepjoin/results/failure_group_summary.csv
+!sybaek/failure_analysis/deepjoin/results/webtable_join_prepare_summary.csv
+!sybaek/failure_analysis/deepjoin/results/plots/
+!sybaek/failure_analysis/deepjoin/results/plots/.gitkeep
+!sybaek/failure_analysis/deepjoin/results/samples/
+!sybaek/failure_analysis/deepjoin/results/samples/.gitkeep
