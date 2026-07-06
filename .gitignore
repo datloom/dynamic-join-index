@@ -16,8 +16,8 @@ __pycache__/
 *.index
 
 # Local benchmark datasets
-sybaek/datasets/lakebench/webtable_join/*
-!sybaek/datasets/lakebench/webtable_join/README.md
+sybaek/datasets/webtable_join/*
+!sybaek/datasets/webtable_join/README.md
 
 # Sybaek local DeepJoin failure-analysis artifacts
 sybaek/failure_analysis/deepjoin/artifacts/*

@@ -9,7 +9,7 @@ sys.path.insert(0, str(ROOT))
 from sybaek.failure_analysis.deepjoin.src.config import ensure_parent, load_config, parse_args, resolve_path
 
 
-RAW_ROOT = "sybaek/datasets/lakebench/webtable_join"
+RAW_ROOT = "sybaek/datasets/webtable_join"
 QUERY_FILE = f"{RAW_ROOT}/query/webtable_join_query.csv"
 GROUND_TRUTH_FILE = f"{RAW_ROOT}/ground_truth/webtable_join_ground_truth.csv"
 EXTRACTED_ROOT = f"{RAW_ROOT}/tables"

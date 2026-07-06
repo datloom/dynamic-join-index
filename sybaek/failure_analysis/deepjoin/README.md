@@ -34,7 +34,7 @@ sybaek/failure_analysis/deepjoin/configs/deepjoin_failure_analysis.json
 For WebTable join experiments, place LakeBench raw files under:
 
 ```text
-sybaek/datasets/lakebench/webtable_join/
+sybaek/datasets/webtable_join/
 ```
 
 ## Initial Figures
