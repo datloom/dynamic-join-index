@@ -19,6 +19,9 @@ __pycache__/
 sybaek/datasets/webtable_join/*
 !sybaek/datasets/webtable_join/README.md
 
+sybaek/datasets/wdc_english_relational_2015/downloads/*
+sybaek/datasets/wdc_english_relational_2015/logs/*
+
 # Sybaek local DeepJoin failure-analysis artifacts
 sybaek/failure_analysis/deepjoin/artifacts/*
 !sybaek/failure_analysis/deepjoin/artifacts/.gitkeep
