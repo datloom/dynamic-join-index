@@ -39,3 +39,20 @@ sybaek/failure_analysis/deepjoin/results/*
 !sybaek/failure_analysis/deepjoin/results/plots/.gitkeep
 !sybaek/failure_analysis/deepjoin/results/samples/
 !sybaek/failure_analysis/deepjoin/results/samples/.gitkeep
+
+# Reproducible large failure-analysis outputs
+sybaek/failure_analysis/results/column_profiles.csv
+sybaek/failure_analysis/results/pair_overlap_metrics.csv
+sybaek/failure_analysis/results/rank_comparison.csv
+sybaek/failure_analysis/results/failure_table.csv
+sybaek/failure_analysis/results/webtable_join_prepare_skipped.csv
+
+
+# hylee
+hylee/OpenData_SG/datasets_SG/*
+hylee/matchedWikitableHistories_new/*
+hylee/scripts/*
+hylee/*.txt
+hylee/data/*
+
+*.zip
