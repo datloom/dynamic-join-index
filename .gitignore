@@ -22,6 +22,14 @@ sybaek/datasets/webtable_join/*
 sybaek/datasets/wdc_english_relational_2015/downloads/*
 sybaek/datasets/wdc_english_relational_2015/logs/*
 
+sybaek/datasets/opendata/downloads/*
+sybaek/datasets/opendata/logs/*
+sybaek/datasets/opendata/queries/*
+sybaek/datasets/opendata/ground_truth/*
+
+sybaek/datasets/opendata_sg/*
+!sybaek/datasets/opendata_sg/README.md
+
 # Sybaek local DeepJoin failure-analysis artifacts
 sybaek/failure_analysis/deepjoin/artifacts/*
 !sybaek/failure_analysis/deepjoin/artifacts/.gitkeep
