@@ -1,0 +1,13 @@
+# Local datasets and generated outputs
+OpenData_SG/datasets_SG/*
+matchedWikitableHistories_new/*
+data/*
+outputs/*
+scripts/*
+/*.txt
+
+# Local agent/tool state
+.codex/*
+.agents/*
+
+README.md

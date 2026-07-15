@@ -56,16 +56,11 @@ sybaek/failure_analysis/results/failure_table.csv
 sybaek/failure_analysis/results/webtable_join_prepare_skipped.csv
 
 
-# hylee
-hylee/OpenData_SG/datasets_SG/*
-hylee/matchedWikitableHistories_new/*
-hylee/scripts/*
-hylee/*.txt
-hylee/data/*
-hylee/outputs/*
-hylee/.codex/*
-hylee/.agents/*
-hylee/README.md
-hylee/scripts/*
+# 개인 작업 디렉터리 규칙은 각자 하위 .gitignore 에서 관리 (예: hylee/.gitignore)
+
+# LakeBench OpenData_SG raw data (로컬 전용, 3.3GB)
+# sybaek/datasets/opendata_sg/README.md 가 원본 위치로 참조하는 경로
+/OpenData_SG/
 
 *.zip
+*.swp
