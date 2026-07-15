@@ -62,5 +62,10 @@ hylee/matchedWikitableHistories_new/*
 hylee/scripts/*
 hylee/*.txt
 hylee/data/*
+hylee/outputs/*
+hylee/.codex/*
+hylee/.agents/*
+hylee/README.md
+hylee/scripts/*
 
 *.zip
